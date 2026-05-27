@@ -62,6 +62,8 @@ const events = [
   type: "Public Event"
 }];
 
+const SUBSTACK_URL = 'https://mihlphilosophy.substack.com'
+const TWITCH_CHANNEL = 'mihlphilosophy'
 
 function NotionMediaSection() {
   const [mediaItems, setMediaItems] = useState<MediaItem[]>([]);
